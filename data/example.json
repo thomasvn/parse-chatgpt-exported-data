@@ -1,0 +1,120 @@
+[
+    {
+      "title": "Bearer Token in Authorization Header",
+      "create_time": 1694214068.016597,
+      "update_time": 1694214090,
+      "mapping": {
+        "29b18fd5-356c-44a8-9fc0-294171489959": {
+          "id": "29b18fd5-356c-44a8-9fc0-294171489959",
+          "message": {
+            "id": "29b18fd5-356c-44a8-9fc0-294171489959",
+            "content": {
+              "parts": [
+                "When authenticating with an Identity Provider (IDP), if the Bearer Token is used for authorization, it's typically found in the HTTP `Authorization` header of the request.\n\nHere's how the `Authorization` header generally looks with a Bearer Token:\n\n```\nAuthorization: Bearer YOUR_TOKEN_HERE\n```\n\nHere's a breakdown:\n\n1. **Authorization**: This is the HTTP header field used to send authentication credentials. In the context of an OAuth2.0 Bearer Token, no actual \"authentication\" takes place, but rather authorization.\n\n2. **Bearer**: This is a type of authentication scheme. When you see \"Bearer\" in the header, it indicates that the authentication method being used is a bearer token.\n\n3. **YOUR_TOKEN_HERE**: This is where the actual bearer token value goes. This token was probably previously issued by the IDP after some other form of authentication took place (like a username/password combination).\n\nThe client obtains the Bearer Token from the IDP, and then includes it in subsequent requests to the resource server (such as an API) to prove its authorization to access the resource.\n\nIf you're trying to find or inspect the Bearer Token, tools like Postman (for API testing) or the browser's Developer Tools (specifically the Network tab) can be very helpful. Just keep in mind that Bearer Tokens should be treated with care as they often grant significant permissions. Don't accidentally commit them to version control, expose them in client-side scripts, or share them unnecessarily."
+              ]
+            }
+          },
+          "parent": "aaa2bd0b-babb-4944-8e64-971a5a1a41d3",
+          "children": []
+        },
+        "89dc87be-970f-492f-b898-c7b23e36b12b": {
+          "id": "89dc87be-970f-492f-b898-c7b23e36b12b",
+          "message": {
+            "id": "89dc87be-970f-492f-b898-c7b23e36b12b",
+            "content": {
+              "parts": [
+                ""
+              ]
+            }
+          },
+          "parent": "aaa18236-7511-4c48-adeb-fa6d4372eefc",
+          "children": [
+            "aaa2bd0b-babb-4944-8e64-971a5a1a41d3"
+          ]
+        },
+        "aaa18236-7511-4c48-adeb-fa6d4372eefc": {
+          "id": "aaa18236-7511-4c48-adeb-fa6d4372eefc",
+          "message": null,
+          "parent": "",
+          "children": [
+            "89dc87be-970f-492f-b898-c7b23e36b12b"
+          ]
+        },
+        "aaa2bd0b-babb-4944-8e64-971a5a1a41d3": {
+          "id": "aaa2bd0b-babb-4944-8e64-971a5a1a41d3",
+          "message": {
+            "id": "aaa2bd0b-babb-4944-8e64-971a5a1a41d3",
+            "content": {
+              "parts": [
+                "Where would I find a Bearer Token in an Authorization Header when authenticating with an IDP?"
+              ]
+            }
+          },
+          "parent": "89dc87be-970f-492f-b898-c7b23e36b12b",
+          "children": [
+            "29b18fd5-356c-44a8-9fc0-294171489959"
+          ]
+        }
+      },
+      "id": "1f36fac6-f3a5-4cc1-a463-f172efa5773e"
+    },
+    {
+        "title": "Convert Salary to Bonus",
+        "create_time": 1694049795.617891,
+        "update_time": 1694049809,
+        "mapping": {
+          "2c3f2ebe-300f-4281-bec7-54a94dcf080d": {
+            "id": "2c3f2ebe-300f-4281-bec7-54a94dcf080d",
+            "message": {
+              "id": "2c3f2ebe-300f-4281-bec7-54a94dcf080d",
+              "content": {
+                "parts": [
+                  ""
+                ]
+              }
+            },
+            "parent": "B974DC98-06D1-4CB3-B90B-73ED848F2838",
+            "children": [
+              "77e8ecb0-409f-426b-af94-c2cc0c1011d6"
+            ]
+          },
+          "77e8ecb0-409f-426b-af94-c2cc0c1011d6": {
+            "id": "77e8ecb0-409f-426b-af94-c2cc0c1011d6",
+            "message": {
+              "id": "77e8ecb0-409f-426b-af94-c2cc0c1011d6",
+              "content": {
+                "parts": [
+                  "In the NFL How do you clear cap space by turning salary to bonus"
+                ]
+              }
+            },
+            "parent": "2c3f2ebe-300f-4281-bec7-54a94dcf080d",
+            "children": [
+              "ae8d460d-4973-4cbe-aa35-3f223a754330"
+            ]
+          },
+          "B974DC98-06D1-4CB3-B90B-73ED848F2838": {
+            "id": "B974DC98-06D1-4CB3-B90B-73ED848F2838",
+            "message": null,
+            "parent": "",
+            "children": [
+              "2c3f2ebe-300f-4281-bec7-54a94dcf080d"
+            ]
+          },
+          "ae8d460d-4973-4cbe-aa35-3f223a754330": {
+            "id": "ae8d460d-4973-4cbe-aa35-3f223a754330",
+            "message": {
+              "id": "ae8d460d-4973-4cbe-aa35-3f223a754330",
+              "content": {
+                "parts": [
+                  "In the NFL, teams often convert a player's salary into a signing bonus to create immediate salary cap space. Here's how it works:\n\nWhen a player's base salary is converted to a signing bonus, the money is paid up front but is spread out for salary cap purposes over the remaining years of the contract. This is called \"prorating.\"\n\nFor example, if a player has a base salary of $10 million and 2 years left on their contract, converting $8 million into a signing bonus would mean that $4 million would count against the cap this year and $4 million the next year. That would free up $4 million in cap space for the current season.\n\nHowever, this approach pushes the cap hit to future years, which can create \"dead money\" if the player is later released or traded. So, while it provides short-term relief, it can create long-term financial complications."
+                ]
+              }
+            },
+            "parent": "77e8ecb0-409f-426b-af94-c2cc0c1011d6",
+            "children": []
+          }
+        },
+        "id": "bb47d2ca-fcbb-4186-887d-35ffb4519b3d"
+      }
+]  

@@ -1,0 +1,5 @@
+*.json
+*.out
+data/*
+
+!data/example.json
